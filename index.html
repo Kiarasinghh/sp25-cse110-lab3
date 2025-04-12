@@ -13,47 +13,117 @@
     </header>
    
     <main>
-      <h3>Attendance</h3>
-      <ul>
-        <li>Kiara</li>
-        <li>Jane</li>
-        <li>George</li>
-        <li>Jeffery</li>
-      </ul>
-  
-      <h3>Agenda</h3>
-      <ol>
-        <li>Decide tech stack</li>
-        <li>Discuss features</li>
-        <li>Delegate tasks</li>
-      </ol>
+      <section>
+        <h3>Attendance</h3>
+        <ul>
+          <li>Kiara</li>
+          <li>Jane</li>
+          <li>George</li>
+          <li>Jeffery</li>
+        </ul>
+      </section>
+    
+      <section>
+        <h3> <strong>Agenda</strong></h3>
+        <ol>
+          <li>Decide tech stack</li>
+          <li>Discuss features</li>
+          <li>Delegate tasks</li>
+        </ol>
+      </section>
       
-      <h3>Where we left off</h3>
-      <p>Final project has been decided to be a UV reapplication app. We were unsure what tech stack we'd like to use.
-         Additionally, there was confusion on what features we want in the app.
-      </p>
+      <section>
+        <div>
+          <h3>Where we left off</h3>
+          <p>Final project has been decided to be a UV reapplication app. We were unsure what tech stack we'd like to use.
+             Additionally, there was confusion on what features we want in the app.
+          </p>
+        </div>
+       
+    
+        <h3>New questions</h3>
+        <p>
+          Do we want to pair program  or work individually? Or do both? <br>Should we get customer feedback as we go through
+          this design process? - If <i>yes</i> then how?
+        </p>
+
+        <details>
+          <summary>Pair Programming vs Individual Work</summary>
+          <p>Pair programming can increase accountability as you have a partner and increases creativity since 2 brains can think
+            of solutions for one problem. However, this can cause an increase in conflicts as opposed to individual work where 
+            you are fully in charge of the code you write. 
+          </p>
+        </details>
   
-      <h3>New questions</h3>
-      <p>
-        Do we want to pair program  or work individually?
-        Should we get customer feedback as we go through this design process? - If yes then how?
-      </p>
+      </section>
+      
+      <hr> 
+
+      <section>
+        <h3>Extra</h3>
+        <p>
+          Agreement to <em>not work on weekends</em>
+        </p>
+        <p>
+          Jane - Believes we should have <span>daily</span> check ins to <b>improve communication</b>
+        </p>
   
-      <h3>Extra</h3>
-      <p>
-        There is a prefrence to not work on weekends
-      </p>
-      <p>
-        Jane - Believes we should have daily check ins to communicate what was done that day. 
-      </p>
-  
+        <h3>Diagrams</h3>
+        <p>Below is an image on how our tech stack will work together</p>
+        <img src="./MERN.jpg" alt="visualisation of MERN stack">
+
+        <form>
+          <p>Enter a name: <input type="text"></p>
+          <fieldset>
+            <legend>Choose a colour</legend>
+            <p> <input type="radio"> Red </p>
+            <p> <input type="radio"> Purple</p>
+          </fieldset>
+          <p>When is your birthday?</p>
+          <fieldset>
+            <input type="date">
+          </fieldset>
+          <p>Check any hobbies you have</p>
+          <fieldset>
+            <p><input type="checkbox"> Spots</p>
+            <p><input type="checkbox"> Reading</p>
+            <p><input type="checkbox"> Cooking</p>
+          </fieldset>
+          <p>What major are you?</p>
+          <input name=major list=majors>
+          <datalist id=majors>
+            <option  value="Computer Science"></option>
+            <option  value="Mechanical Engineering"></option>
+            <option  value="Physics"></option>
+            <option  value="Other"></option>
+          </datalist>
+          <p>What's your favourite song?</p>
+          <select require name="song">
+            <option value="first"> Let it go 
+            <option value="second"> Roar
+            <option value="third"> Fancy
+          </select>
+
+          <p>Any fun facts?</p>
+          <textarea></textarea>
+
+          <button>Submit</button>
+
+        </form>
+
+        <h3>Video and Audio Versions of Meeting</h3>
+        <video src="video.mp4"> </video>
+        <audio src="audio.mp3"></audio>
+      </section>
+    
     </main>
    
+    
     <footer>
-      <h3>Diagrams</h3>
-      <p>Below is an image on how our tech stack will work together</p>
-      <img src="./MERN.jpg" alt="visualisation of MERN stack">
-      <p>If you are unfamiliar with this link</p>
+      <p>If you are unfamiliar with the chosen tech stack. Checkout the link below!</p>
+      <nav>
+        <a href="https://www.mongodb.com/resources/languages/mern-stack">MERN Stack information</a>
+      </nav>
     </footer>
 
   </body>
