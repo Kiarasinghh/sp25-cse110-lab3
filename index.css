@@ -1,0 +1,43 @@
+h1{
+    color:red;
+}
+
+.date{
+    color:#b2cf3b;
+}
+
+#subsection{
+    background-color: hsl(62, 73%, 49%);
+}
+
+div *{
+    color:rgb(0, 128, 255);
+}
+
+a[class="link"]{
+    color:color(srgb 0.7 0.1 0.2 /0.9);
+}
+
+a:hover{
+    color:color-mix(in srgb, red 50%, white);
+}
+
+h2,h3{
+    text-decoration: underline purple;
+}
+
+section > ul{
+    background-color: aquamarine;
+}
+
+ol li{
+    background-color: orange;
+}
+
+h3 ~ p{
+    color:darkgoldenrod;
+}
+
+summary + p{
+    color:rgb(0, 102, 105);
+}
