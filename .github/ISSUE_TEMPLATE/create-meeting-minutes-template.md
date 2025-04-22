@@ -2,7 +2,7 @@
 name: Create meeting minutes template
 about: 'Format a template '
 title: ''
-labels: writing
+labels: coloring, formatting, writing
 assignees: Kiarasinghh
 
 ---
