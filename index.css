@@ -10,8 +10,19 @@ h1{
     background-color: hsl(62, 73%, 49%);
 }
 
-div *{
-    color:rgb(0, 128, 255);
+.todo{
+    position: sticky;
+    top:10px;
+}
+
+h3 *{
+    color:rgb(230, 0, 255);
+    font-size: 1em;
+
+}
+
+.summary{
+    text-align: center;
 }
 
 a[class="link"]{
@@ -41,3 +52,87 @@ h3 ~ p{
 summary + p{
     color:rgb(0, 102, 105);
 }
+
+.box1{
+    border-style: solid;
+    border-color: red;
+    border-width:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.box2{
+    border-style: groove;
+    border-color: rgb(250, 163, 0);
+    border-width:5px;
+    padding:10px 10px 20px 20px;
+    margin:auto;
+    max-width: 20%;
+}
+
+.box3{
+    border-style:double;
+    border-color:cornflowerblue;
+    border-width:5px;
+    padding-left: 10pt;
+    padding-top:20 pc;
+    margin:10px,10px,15px,20px;
+    min-width: 20%;
+}
+
+.image{
+    border-style:double;
+    border-color:cornflowerblue;
+    border-width:5px;
+    border-radius:10px;
+    padding-left: 10px;
+    margin-top:25px;
+    margin-left:10px;
+    margin-bottom:20px;
+    margin-right: 10px;
+    width:40vh;
+    height: 20vw;
+}
+
+
+.questions{
+    display:inline-block;
+    margin:auto;
+}
+
+.media{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.newQs{
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+.extra{
+    display:none;
+}
+
+@media (max-width:700px ){
+    .questions{
+        font-size: 2em
+    }
+}
+
+.emoji{
+    position: relative;
+   top:10px;
+}
+
+form :active{
+    color:rgb(0, 255, 89);
+}
+
