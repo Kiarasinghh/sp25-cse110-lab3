@@ -98,7 +98,7 @@ summary + p{
     border-color:cornflowerblue;
     border-width:5px;
     padding-left: 10pt;
-    padding-top:20pc;
+    padding-top:2pc;
     margin:10px 10px 15px 20px;
     min-width: 20%;
 }
@@ -173,3 +173,7 @@ form :active{
     color:rgb(0, 255, 89);
 }
 
+/* combing two selectors */
+div.box1{
+    border:2px solid rgb(199, 23, 23);
+}
