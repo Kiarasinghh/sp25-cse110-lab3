@@ -14,29 +14,29 @@
 - Get updates on user research
 - Assign tasks according to progress
 
-## Progress:
+# Progress:
 
-Kiara:
-  # Progress:
+## Kiara:
+  ### Progress:
   Designed user research surveys and set up documentation on how to read answers 
 
-  # To do:
+  ### To do:
   Send out survey to sample target audience 
 
 
-James
-  # Progress:
+## James
+  ### Progress:
   Finished figma ideas for possible app
 
-  # To do:
+  ### To do:
   Plan out possible features to include
 
 
-Rachel:
-  # Progress:
+## Rachel:
+  ### Progress:
   Attempted to gather physical resources for project but couldn't find itmes in budget.
 
-  # To do:
+  ### To do:
   Preapre presendtation to recosider budget and continue reserach. 
 
 # Challenges
