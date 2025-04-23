@@ -173,3 +173,7 @@ form :active{
     color:rgb(0, 255, 89);
 }
 
+/* combing two selectors */
+div.box1{
+    border:2px solid rgb(199, 23, 23);
+}
