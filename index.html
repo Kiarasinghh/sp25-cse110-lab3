@@ -3,13 +3,21 @@
   <head>
     <title>Sunscreen App </title>
     <meta charset="UTF-8" />
-    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit">
+    <style>
+      body{
+        font-family: Kanit;
+        background-color: antiquewhite;
+      }
+    </style>
   </head>
   <body>
     <header>
-      <h1>Sunscreen App Ideas</h1>
+      <h1 id="subsection">Sunscreen App Ideas</h1>
       <h2>Brainstorming ideas and setting expectations</h2>
-      <h2>11th April 2025</h2>
+      <h2 class="date">11th April 2025</h2>
     </header>
    
     <main>
@@ -23,119 +31,158 @@
         </ul>
       </section>
     
-      <section>
-        <h3> <strong>Agenda</strong></h3>
-        <ol>
-          <li>Decide tech stack</li>
-          <li>Discuss features</li>
-          <li>Delegate tasks</li>
-        </ol>
-      </section>
-      
-      <section>
-        <div>
-          <h3>Where we left off</h3>
-          <p>Final project has been decided to be a UV reapplication app. We were unsure what tech stack we'd like to use.
-             Additionally, there was confusion on what features we want in the app.
-          </p>
-        </div>
-
-        <h3>Important Conclusions from Today</h3>
-        <p>Features: Display current uv index, push notifications, detects location automatically<br>
-          Tasks: Kiara - login page, Jane - sign up page, George - location API, Jeffery - home page, Louis - styling
-        </p>
-
-
-       
-    
-        <h3>New questions</h3>
-        <p>
-          Do we want to pair program  or work individually? Or do both? <br>Should we get customer feedback as we go through
-          this design process? - If <i>yes</i> then how?
-        </p>
-
-        <details>
-          <summary>Pair Programming vs Individual Work</summary>
-          <p>Pair programming can increase accountability as you have a partner and increases creativity since 2 brains can think
-            of solutions for one problem. However, this can cause an increase in conflicts as opposed to individual work where 
-            you are fully in charge of the code you write. 
-          </p>
-        </details>
+      <div> 
+        <section class="todo">
+          <h3> <strong>Agenda</strong></h3>
+          <ol>
+            <li>Decide tech stack</li>
+            <li>Discuss features</li>
+            <li>Delegate tasks</li>
+          </ol>
+        </section>
+        
+        <section>
+          <div class="box1">
+            <h3>Where we left off</h3>
+            <p >Final project has been decided to be a UV reapplication app. We were unsure what tech stack we'd like to use. Additionally, there was confusion 
+                on what features we want in the app. 
+            </p>
+          </div>
   
-      </section>
-      
-      <hr> 
-
-      <section>
-        <h3>Extra</h3>
-        <p>
-          Agreement to <em>not work on weekends</em>
-        </p>
-        <p>
-          Jane - Believes we should have <span>daily</span> check ins to <b>improve communication</b>
-        </p>
+          <h3>Important Conclusions from Today</h3>
+          <p class="summary">Features: Display current uv index, push notifications, detects location automatically. <br> 
+            Tasks: Kiara - login page, Jane - sign up page, George - location API, Jeffery - home page, Louis - styling
+          </p>
   
-        <h3>Diagrams</h3>
-        <p>Below is an image on how our tech stack will work together</p>
-        <img src="./MERN.jpg" alt="visualisation of MERN stack">
-
-        <h3>Video and Audio Versions of Meeting</h3>
-        <video controls width="250">
-          <source src="./video.mp4" type="video/mp4" />
-        </video>
-        <audio controls src="./audio.mp3"></audio>
-
-        <hr>
-        <h3>Fun form!</h3>
-        <form>
-          <p>Enter a name: <input type="text"></p>
-          <fieldset>
-            <legend>Choose a colour</legend>
-            <p> <input type="radio"> Red </p>
-            <p> <input type="radio"> Purple</p>
-          </fieldset>
-          <p>When is your birthday?</p>
-          <fieldset>
-            <input type="date">
-          </fieldset>
-          <p>Check any hobbies you have</p>
-          <fieldset>
-            <p><input type="checkbox"> Sports</p>
-            <p><input type="checkbox"> Reading</p>
-            <p><input type="checkbox"> Cooking</p>
-          </fieldset>
-          <p>What major are you?</p>
-          <input name=major list=majors>
-          <datalist id=majors>
-            <option  value="Computer Science"></option>
-            <option  value="Mechanical Engineering"></option>
-            <option  value="Physics"></option>
-            <option  value="Other"></option>
-          </datalist>
-          <p>What's your favourite song?</p>
-          <select name="song">
-            <option value="first"> Let it go 
-            <option value="second"> Roar
-            <option value="third"> Fancy
-          </select>
-
-          <p>Any fun facts?</p>
-          <textarea></textarea>
-
-          <button>Submit</button>
-
-        </form>
-
-       
-      </section>
+  
+         
+      
+          <h3 class="box2">New questions</h3>
+  
+          <div class=newQs>
+            <div>
+              <p>
+                Do we want to pair program  or work individually? Or do both?
+              </p>
+            </div>
     
+            <div>
+              <p>
+                Should we get customer feedback as we go through this design process? - If <i>yes</i> then how?
+              </p>
+            </div>
+    
+            <div> 
+              <p>
+                How often are people availble to meet in their seperate teams? 
+              </p>  
+            </div>
+  
+          </div>
+         
+    
+          
+  
+          <details>
+            <summary>Pair Programming vs Individual Work</summary>
+            <p>Pair programming can increase accountability as you have a partner and increases creativity since 2 brains can think
+              of solutions for one problem. However, this can cause an increase in conflicts as opposed to individual work where 
+              you are fully in charge of the code you write. 
+            </p>
+          </details>
+    
+        </section>
+        
+        <hr> 
+  
+        <section>
+          <h3>Extra</h3>
+          <p>
+            Agreement to <em>not work on weekends</em>
+          </p>
+          <p>
+            Jane - Believes we should have <span>daily</span> check ins to <b>improve communication</b>
+          </p>
+    
+          <div>
+            <h3>Diagrams</h3>
+            <p class="box3">Below is an image on how our tech stack will work together</p>
+            <img class="image" src="./MERN.jpg" alt="visualisation of MERN stack">
+  
+            <h3>Video and Audio Versions of Meeting</h3>
+            <video controls width="250">
+              <source src="./video.mp4" type="video/mp4" />
+            </video>
+            <audio controls src="./audio.mp3"></audio>
+          </div>
+          
+          <p class="extra">Have any feedback on page? Let me know</p>
+  
+          <hr>
+          <h3>Fun form!</h3>
+          <form>
+            <div class="questions">
+              <p>Enter a name: <input type="text"></p>
+              <fieldset>
+                <legend>Choose a colour</legend>
+                <p> <input type="radio"> Red </p>
+                <p> <input type="radio"> Purple</p>
+              </fieldset>
+              <p>When is your birthday?</p>
+              <fieldset>
+                <input type="date">
+              </fieldset>
+              <p>Check any hobbies you have</p>
+              <fieldset>
+                <p><input type="checkbox"> Sports</p>
+                <p><input type="checkbox"> Reading</p>
+                <p><input type="checkbox"> Cooking</p>
+              </fieldset>
+              <p>What major are you?</p>
+              <input name=major list=majors>
+              <datalist id=majors>
+                <option  value="Computer Science"></option>
+                <option  value="Mechanical Engineering"></option>
+                <option  value="Physics"></option>
+                <option  value="Other"></option>
+              </datalist>
+              <p>What's your favourite song?</p>
+              <select name="song">
+                <option value="first"> Let it go 
+                <option value="second"> Roar
+                <option value="third"> Fancy
+              </select>
+  
+              <p>Any fun facts?</p>
+              <textarea></textarea>
+  
+              <div class="media">
+                <img class="emoji" src="./curious.jpg" alt="curious emoji">
+                <img src="./didyouknow.png" alt="did you know">
+                <img src="./funFact.png" alt="fun fact">
+              </div>
+  
+            
+  
+              <button type="button">Submit</button>
+            </div>
+  
+          </form>
+  
+         
+        </section>
+      
+
+
+      </div>
+      
     </main>
    
     
     <footer>
       <p>If you are unfamiliar with the chosen tech stack. Checkout the link below!</p>
       <nav>
-        <a href="https://www.mongodb.com/resources/languages/mern-stack">MERN Stack information</a>
+        <a class="link" href="https://www.mongodb.com/resources/languages/mern-stack">MERN Stack information</a>
       </nav>
     </footer>
 

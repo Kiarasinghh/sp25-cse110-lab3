@@ -1,0 +1,175 @@
+/* defining --my-col */
+:root{
+    --my-col: hsl(62, 73%, 49%);
+}
+
+/* setting a color for h1 headings*/
+h1{
+    color:red;
+}
+
+/* setting a color for date */
+.date{
+    color:#b2cf3b;
+}
+
+/* fallback variable for background color */
+#subsection{
+    background-color: var(--my-col, rgb(248, 188, 248));
+}
+
+/* using sticky positioning */
+.todo{
+    position: sticky;
+    top:10px;
+}
+
+
+/* using em as a unit*/
+h3 *{
+    color:rgb(230, 0, 255);
+    font-size: 1em;
+}
+
+/* using text-align */
+.summary{
+    text-align: center;
+}
+
+/* adding styling through attributes */
+a[class="link"]{
+    color:color(srgb 0.7 0.1 0.2 /0.9);
+}
+
+/* adding hover color change */
+a:hover{
+    color:color-mix(in srgb, red 50%, white);
+}
+
+/* styling with text-decoration */
+h2,h3{
+    text-decoration: underline purple;
+}
+
+/* child combinator*/
+section > ul{
+    background-color: aquamarine;
+}
+
+/* descendant combinator */
+ol li{
+    background-color: orange;
+}
+
+/* general sibling combinator */
+h3 ~ p{
+    color:darkgoldenrod;
+}
+
+/* adjacent sibling combinator */
+summary + p{
+    color:rgb(0, 102, 105);
+}
+
+/* styling where we left off */
+.box1{
+    border-style: solid;
+    border-color: red;
+    border-width:5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* styling new questions*/
+.box2{
+    border-style: groove;
+    border-color: rgb(250, 163, 0);
+    border-width:5px;
+    padding:10px 10px 20px 20px;
+    margin:auto;
+    max-width: 20%;
+}
+
+/* styling MERN text */
+.box3{
+    border-style:double;
+    border-color:cornflowerblue;
+    border-width:5px;
+    padding-left: 10pt;
+    padding-top:1pc;
+    margin:10px 10px 15px 20px;
+    min-width: 20%;
+}
+
+/* styling MERN image */
+.image{
+    border-style:double;
+    border-color:cornflowerblue;
+    border-width:5px;
+    border-radius:10px;
+    padding-left: 10px;
+    margin-top:25px;
+    margin-left:10px;
+    margin-bottom:20px;
+    margin-right: 10px;
+    width:40vh;
+    height: 20vw;
+}
+
+/* using nested selectors */
+.questions{
+    display:inline-block;
+    margin:auto;
+    & > p{
+        color:chocolate;
+    }
+}
+
+/* styling images with flex display*/
+.media{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content: center;
+    max-width: 100%;
+}
+
+/* styling form with grid display */
+.newQs{
+    display:grid;
+    grid-template-columns: repeat(2,2fr);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+
+/* hiding text */
+.extra{
+    display:none;
+}
+
+/* making code adaptable to screen size */
+@media (max-width:700px ){
+    .questions{
+        font-size: 2em
+    }
+}
+
+/* using new selectors */
+p:has(+ nav){
+    color:red;
+}
+
+/* using relatvie positioning */
+.emoji{
+    position: relative;
+    top:5px;
+    padding-bottom: 50px;
+}
+
+/* making submit form button active */
+form :active{
+    color:rgb(0, 255, 89);
+}
+
